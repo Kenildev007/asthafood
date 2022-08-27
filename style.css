@@ -1,0 +1,87 @@
+body {
+    background-color: #FF7F3F;
+    margin: 5px;
+}
+
+.main-card {
+    display: flex;
+    margin: 45px 25px;
+    
+}
+
+.card {
+
+    width: 600px;
+    height: fit-content;
+    border-color: black;
+    background-color: yellowgreen;
+    border-radius: 28px;
+    border: solid;
+    position: relative;
+    bottom: 50px;
+    margin: 15px 25px;
+    
+}
+
+.card:hover{
+    animation-name: ruchi;
+    animation-fill-mode: none;
+    animation-duration: 2s;
+}
+
+@keyframes ruchi {
+
+    to {
+        transform: rotate(180deg);
+    }
+
+}
+
+h1 {
+    margin: 15px;
+
+}
+
+p {
+    margin: 10px 15px;
+    color: blue;
+    font-size: 20px;
+}
+
+.ratings {
+    position: absolute;
+    background-color: #F94892;
+    top: 170px;
+
+}
+
+button {
+    margin: 10px 0px 10px 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+}
+
+.food-img {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+h1:hover {
+    color: antiquewhite;
+
+}
+
+.ratings:hover {
+
+    color: aliceblue;
+    background-color: white;
+
+}
+
+button:hover {
+
+    color: aqua;
+    background-color: black;
+}
